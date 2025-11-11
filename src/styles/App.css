@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif;
+  background: #000;
+}
+
+.portfolio-bg {
+  min-height: 100vh;
+  background: #000;
+  padding-top: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 2rem 0 2rem;
+  min-height: 100vh;
+}

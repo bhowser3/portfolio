@@ -100,7 +100,7 @@ function CustomGist({ gistId }) {
 function Project1() {
   return (
     <div id="project1" className="project-container">
-      <h2 className="project-title">Discord and GroupMe Cross Connect</h2>
+      <h2 className="project-title">Discord & GroupMe Cross Connect</h2>
       <p className="project-text">
         This project is a JavaScript application that connects Discord and GroupMe via their APIs.
         A user can send messages in either platform and have them appear in the other platform in real-time.

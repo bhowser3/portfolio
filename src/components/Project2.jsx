@@ -17,7 +17,7 @@ function Project2() {
         rel="noopener noreferrer"
       >
         <img 
-          src="/src/assets/pictures/reddit_bot_example.png" 
+          src="/pictures/reddit_bot_example.png" 
           alt="Reddit Bot Example" 
           className="project-image clickable-image"
         />

@@ -82,6 +82,7 @@
 .carousel-dots {
   display: flex;
   justify-content: center;
+  align-items: center;   
   padding: 1rem;
   background: #000;
   gap: 8px;
@@ -90,12 +91,15 @@
 .carousel-dot {
   width: 12px;
   height: 12px;
+  flex: 0 0 12px;        
+  aspect-ratio: 1 / 1;   
   border-radius: 50%;
   border: none;
   background: #555;
   cursor: pointer;
   transition: all 0.2s ease;
 }
+
 
 .carousel-dot:hover {
   background: #777;

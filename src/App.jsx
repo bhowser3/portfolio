@@ -16,11 +16,11 @@ function App() {
   };
 
   return (
-    <div className="portfolio-bg">
+    <div className="portfolio-bg" id="top">
       <nav className="nav-container">
         <ul className="nav-list">
           <li className="nav-item">
-            <button onClick={() => scrollToSection('about')} className="nav-link">About</button>
+            <button onClick={() => scrollToSection('top')} className="nav-link">About</button>
           </li>
           <li className="nav-item">
             <button onClick={() => scrollToSection('project1')} className="nav-link">Discord & GroupMe Cross Connect</button>

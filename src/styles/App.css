@@ -26,3 +26,16 @@ html {
   padding: 6rem 2rem 0 2rem;
   min-height: 100vh;
 }
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    padding: 6rem 1rem 2rem 1rem;
+    align-items: stretch; /* let children be full-width instead of forced centered width */
+  }
+}
+
+@media (max-width: 480px) {
+  .content-wrapper {
+    padding: 5.5rem 0.75rem 2rem 0.75rem;
+  }
+}

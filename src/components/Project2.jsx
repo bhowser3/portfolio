@@ -17,7 +17,7 @@ function Project2() {
         rel="noopener noreferrer"
       >
         <img 
-          src="/pictures/reddit_bot_example.png" 
+          src={`${import.meta.env.BASE_URL}pictures/reddit_bot_example.png`}
           alt="Reddit Bot Example" 
           className="project-image clickable-image"
         />

@@ -27,3 +27,44 @@
   margin-bottom: 1rem;
   line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+  .about-container {
+    max-width: 100%;
+    margin: 1.5rem 0 0 0;
+    border-radius: 16px;
+    padding: 1.5rem 1.25rem 2rem 1.25rem;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-role {
+    font-size: 1.1rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    margin-top: 1rem;
+    padding: 1.25rem 1rem 1.75rem 1rem;
+  }
+
+  .about-title {
+    font-size: 1.75rem;
+  }
+
+  .about-role {
+    font-size: 1rem;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+  }
+}

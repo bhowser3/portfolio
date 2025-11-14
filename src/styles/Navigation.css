@@ -46,3 +46,31 @@
   background: #fff;
   color: #000;
 }
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 0.75rem 1rem;
+  }
+
+  .nav-list {
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+    padding: 0.4rem 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-list {
+    gap: 0.35rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+    padding: 0.35rem 0.6rem;
+  }
+}
